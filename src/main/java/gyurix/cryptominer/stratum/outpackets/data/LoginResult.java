@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 public class LoginResult {
-    private String id;
+    private String id, status;
     private JobInfo job;
 }

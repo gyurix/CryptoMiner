@@ -5,5 +5,5 @@ import lombok.Getter;
 
 @Getter
 public class JobInfo extends Jsonable {
-    private String id, blob, target;
+    private String jobId, blob, target;
 }
